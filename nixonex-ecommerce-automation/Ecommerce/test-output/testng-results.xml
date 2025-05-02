@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-02T18:09:57 MESZ" name="Default suite" finished-at="2025-05-02T18:10:35 MESZ" duration-ms="38157">
+    <groups>
+    </groups>
+    <test started-at="2025-05-02T18:09:57 MESZ" name="Default test" finished-at="2025-05-02T18:10:35 MESZ" duration-ms="38157">
+      <class name="Tests.EndtoEndtest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:Tests.EndtoEndtest@4145bad8]" started-at="2025-05-02T18:09:56 MESZ" name="startReport" finished-at="2025-05-02T18:09:57 MESZ" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.EndtoEndtest@4145bad8]" started-at="2025-05-02T18:09:57 MESZ" name="init" finished-at="2025-05-02T18:10:00 MESZ" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="completeuserflow()[pri:0, instance:Tests.EndtoEndtest@4145bad8]" started-at="2025-05-02T18:10:00 MESZ" name="completeuserflow" finished-at="2025-05-02T18:10:35 MESZ" duration-ms="34369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeuserflow -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Tests.EndtoEndtest@4145bad8]" started-at="2025-05-02T18:10:35 MESZ" name="closeBrowser" finished-at="2025-05-02T18:10:35 MESZ" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeuserflow status=SUCCESS method=EndtoEndtest.completeuserflow()[pri:0, instance:Tests.EndtoEndtest@4145bad8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Tests.EndtoEndtest@4145bad8]" started-at="2025-05-02T18:10:35 MESZ" name="endReport" finished-at="2025-05-02T18:10:36 MESZ" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.EndtoEndtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
